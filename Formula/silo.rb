@@ -1,28 +1,28 @@
 class Silo < Formula
   desc "Seafile-compatible server and client in one binary"
   homepage "https://github.com/dkam/silo"
-  version "0.1.2"
+  version "0.2.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/dkam/silo/releases/download/v0.1.2/silo-v0.1.2-darwin-arm64.tar.gz"
-      sha256 "045740a5db74e00c3663fe775da1ed04c1e2175c090b3a953c18fad1035565aa"
+      url "https://github.com/dkam/silo/releases/download/v0.2.0/silo-v0.2.0-darwin-arm64.tar.gz"
+      sha256 "5fc8da4066b458e4ca1f6fe8d15378f5ba1ade9e6bf822642a73b27aaeb0da6e"
     end
     on_intel do
-      url "https://github.com/dkam/silo/releases/download/v0.1.2/silo-v0.1.2-darwin-amd64.tar.gz"
-      sha256 "ab5abba7148d3de4141de29562d3a8016ba7af24d2b19744dc983bb3b4f54aca"
+      url "https://github.com/dkam/silo/releases/download/v0.2.0/silo-v0.2.0-darwin-amd64.tar.gz"
+      sha256 "e6e5dd9dd14577a870dfd6c6d4dd001143435a44db9b59ae0077ba74c078de88"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dkam/silo/releases/download/v0.1.2/silo-v0.1.2-linux-arm64.tar.gz"
-      sha256 "3b174865fb82dca60e772020dbb3e5a9150e18f1f6c6c658bcddfd74cb1fbbf2"
+      url "https://github.com/dkam/silo/releases/download/v0.2.0/silo-v0.2.0-linux-arm64.tar.gz"
+      sha256 "15682c569fd1731d072dd4894eb7a8db0c6228a6c3528111efc0402386f30897"
     end
     on_intel do
-      url "https://github.com/dkam/silo/releases/download/v0.1.2/silo-v0.1.2-linux-amd64.tar.gz"
-      sha256 "2ba7996882d5c54101887f61f86d3a23f858d8b18730f6478557e87c4f529e6c"
+      url "https://github.com/dkam/silo/releases/download/v0.2.0/silo-v0.2.0-linux-amd64.tar.gz"
+      sha256 "49518fc7e0905be91be982ee72db9e31888aea045a2ab4e95044a74cfb2a868f"
     end
   end
 
